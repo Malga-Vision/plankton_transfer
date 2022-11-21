@@ -1,0 +1,31 @@
+dataset_root: "datasets"
+database_root: "databases"
+
+whoi:
+  url_2014: "https://darchive.mblwhoilibrary.org/bitstream/handle/1912/7350/2014.zip?sequence=1&isAllowed=y"
+  url_2013: "https://darchive.mblwhoilibrary.org/bitstream/handle/1912/7349/2013.zip?sequence=1&isAllowed=y"
+  url_2012: "https://darchive.mblwhoilibrary.org/bitstream/handle/1912/7344/2012.zip?sequence=1&isAllowed=y"
+  url_2011: "https://darchive.mblwhoilibrary.org/bitstream/handle/1912/7347/2011.zip?sequence=1&isAllowed=y"
+  url_2010: "https://darchive.mblwhoilibrary.org/bitstream/handle/1912/7348/2010.zip?sequence=1&isAllowed=y"
+  url_2009: "https://darchive.mblwhoilibrary.org/bitstream/handle/1912/7346/2009.zip?sequence=1&isAllowed=y"
+  url_2008: "https://darchive.mblwhoilibrary.org/bitstream/handle/1912/7345/2008.zip?sequence=1&isAllowed=y"
+  url_2007: "https://darchive.mblwhoilibrary.org/bitstream/handle/1912/7343/2007.zip?sequence=1&isAllowed=y"
+  url_2006: "https://darchive.mblwhoilibrary.org/bitstream/handle/1912/7342/2006.zip?sequence=1&isAllowed=y"
+
+whoi22_train:
+  url: "https://aslopubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.4319%2Flom.2007.5.204&file=lom320075204-sup-0003.zip"
+
+whoi22_test:
+  url: "https://aslopubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.4319%2Flom.2007.5.204&file=lom320075204-sup-0002.zip"
+
+zooscan:
+  url: "https://www.seanoe.org/data/00446/55741/data/57398.tar"
+
+
+zoolake:
+  url: "https://opendata.eawag.ch/dataset/52b6ba86-5ecb-448c-8c01-eec7cb209dc7/resource/1cc785fa-36c2-447d-bb11-92ce1d1f3f2d/download/data.zip"
+
+
+
+kaggle_zooscan20:
+  url: "http://ouc.ai/zhenghaiyong/research/mkl/Dataset.zip"

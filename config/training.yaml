@@ -1,0 +1,49 @@
+use_amp: True
+sync_bn: True
+
+label_smoothing: 0.1 
+
+# OPTIMIZER
+optimizer: "SGD"
+
+lr_backbone: 1e-3 
+lr_bottleneck: 1e-2 
+lr_classifier: 1e-2 
+
+optimizer_params:
+  momentum: 0.9
+  nesterov: True
+  weight_decay: 1e-2
+
+# WARMUP
+lr_backbone_wu: 1e-5
+lr_classifier_wu: 1e-2
+lr_bottleneck_wu: 1e-2
+wu_epochs_step1: 0
+wu_epochs_step2: 0
+
+
+# SCHEDULER
+step_scheduler: True
+scheduler: "ExponentialStepScheduler"
+scheduler_params:
+  gamma: 10
+  power: 0.75
+
+# TRAINING  
+batch_size: 8
+n_accumulation: 2
+
+# Epochs/steps
+max_update_steps_one_epoch: 100
+max_epochs: 120
+min_epochs: 30
+
+# eval/stop
+eval_period: 1
+max_eval_samples: 8000
+stop_after_not_improving_eval: 50
+
+# data loading
+num_workers: 4
+pin_memory: True
